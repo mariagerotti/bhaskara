@@ -26,8 +26,8 @@ function handlebtnCalcular() {
     const b = parseInt (document.getElementById('valorB').value)
     const c = parseInt (document.getElementById('valorC').value)
     const resultado = bhaskara(a, b, c)
-    document.getElementById('resultadoX1').innerHTML = 'x1: ' + resultado.x1
-    document.getElementById('resultadoX2').innerHTML = 'x2: ' + resultado.x2
+    document.getElementById('resultadoX1').value = resultado.x1
+    document.getElementById('resultadoX2').value = resultado.x2
 }
 
 
