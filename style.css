@@ -4,14 +4,34 @@ body{
     font-family: 'Reem Kufi', sans-serif;
 }
 
-main{
-    width: 50%;
+h1{
+    text-align: center;
+}
 
+main{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto; 
     background-color: cornflowerblue;
     border-radius: 7px;
     padding: 5px;
 }
 
-.valores{
-    
+.valores, #btnCalcular{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.resultado{
+   padding-left: 23%;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1:hover{
+    text-decoration:underline;
 }
