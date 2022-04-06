@@ -25,13 +25,11 @@ main{
     margin-right: auto; 
 }
 
-.resultado{
-   padding-left: 23%;
-}
 
 button{
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 13px;
 }
 
 h1:hover{
@@ -39,7 +37,6 @@ h1:hover{
 }
 
 .entrada{
-    width: 65%;
     height: 35%;
     border-radius: 17px;
     border: 0.5px solid;
