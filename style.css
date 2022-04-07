@@ -14,9 +14,12 @@ main{
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: cornflowerblue;
     border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .valores{
@@ -25,11 +28,16 @@ main{
     margin-right: auto; 
 }
 
-
 button{
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 13px;
+    background-color: rgb(156, 187, 226);
+    border-color: black;
+}
+
+button:hover{
+    background-color:khaki;
 }
 
 h1:hover{
@@ -38,7 +46,7 @@ h1:hover{
 
 .entrada{
     height: 35%;
-    border-radius: 17px;
+    border-radius: 15px;
     border: 0.5px solid;
     padding-left: 15px;
     margin-bottom: 25px;
